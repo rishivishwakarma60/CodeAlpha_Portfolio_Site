@@ -1,0 +1,397 @@
+
+import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Vidaloka&display=swap');
+*{
+    font-family: "Vidaloka", serif;
+    font-weight: 400;
+    font-style: normal;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body{
+
+}
+
+
+
+header
+{
+    background-color: rgb(227, 66, 7);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-size: 20px;
+
+    img{
+        height: 10vh;
+        width: 10vh;
+    }
+}
+.logo{
+    display: flex;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    color: brown;
+}
+
+h1{
+    color: black;
+}
+
+li
+{
+    list-style-type: none;
+   
+}
+a{
+    color: bisque;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.box2{
+    margin-top: -10px;
+    margin-bottom: 0px;
+    line-height: 10px;
+}
+.name{
+    color:rgb(255, 255, 0);
+    font-weight: bolder;
+   margin-bottom: ;
+
+
+}
+li:hover{
+    transform: scale(1.1);
+}
+a:hover{
+    color: yellow;
+}
+section{
+     margin: 20px;
+    padding: 20px 50px;
+}
+#banner{
+    display: flex;
+   
+}
+
+.rishifinal{
+margin-right: 20px;
+}
+.name1{
+    color: brown;
+    margin-bottom: 0px;
+}
+.mail{
+
+    font-size: medium;
+    margin-top: 10px;
+    
+    a{
+        color: black;
+      
+    }
+    a:hover{
+        color: none;
+    }
+}
+.banner-data{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+}
+.banner-data h2
+{
+  font-size:48px;
+}
+.banner-data p{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: justify;
+}
+button{
+ background-color: brown;
+ color: white;
+ border-radius: 40vw;
+ padding: 10px;
+ transition: all 2s ease;
+ margin-top: 100px;
+}
+
+.rishifinal{
+margin-left: 150px;
+}
+.secondary{
+    background: brown;
+    color: white;
+}
+button:hover
+{
+    background-color:brown;
+}
+.instagram{
+    height: 400px;
+    width: 100px;
+ 
+ margin-left: 0px;
+ padding-right: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ font-size: larger;
+
+
+
+ a{
+
+    font-size: 30px;
+ }
+}
+
+.Title{
+   font-size: 40px;
+   color: brown;
+   font-weight: bolder;
+   text-align: center;
+}
+#about{
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+#Projects{
+    background-color:  rgb(227, 66, 7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.Projecttitle{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+   
+}
+.projects1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.project img{
+    height: 30vh;
+    width: 20vw;
+    margin-left: 30px;
+}
+.project{
+    padding: 30px;
+}
+
+
+.form{
+    background-color:  rgb(227, 66, 7);
+    margin-bottom: 0px;
+    
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+align-items: center;
+h3{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: oblique;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    color: blue;
+    background-color: black;
+    border-radius: 40vw;
+    padding: 15px;
+   
+}
+input{
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+label{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+
+}
+
+
+}
+.t1:hover{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; 
+    animation-duration: 1s;
+}
+
+.footer1{
+    background-color: black;
+
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+
+ 
+  padding: 10px;
+  h5{
+    margin-left: 40%;
+  }
+   
+}
+.footer{
+    background-color: white;
+}
+.b1{
+    margin-bottom: 100px;
+    width: 100px;
+    font-size: larger;
+}
+
+@media (max-width:768px)
+{
+    header{
+        flex-direction: column;
+
+        ul{
+            margin-left: 80px;
+        }
+    }
+    #banner{
+        flex-direction: column-reverse;
+    }
+    .rishifinal{
+        margin-left: 80px;
+          }
+          .instagram{
+            height: 20px;
+            width: 200px;
+       
+           padding-right: 0px;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 30px;
+          gap: 10px;
+          margin-left:130px;
+        }
+        .buttons{
+            margin-left: 80px;
+            
+        }
+        
+        .footer1 h5{
+            margin-left: 30%;
+        }
+    
+ 
+} 
+@media (max-width:480px)
+{
+    header{
+        flex-direction: column;
+    }
+    header ul{
+        flex-direction: column;
+    }
+     #banner{
+        flex-direction: column-reverse;
+    }
+    #banner img{
+        width: 80vw;
+    }
+    .rishifinal{
+      margin-left: -30px;
+        }
+   
+        img{
+            height: 400px;
+            width: 250px;
+
+        }
+        .instagram{
+            height: 20px;
+            width: 200px;
+       
+           padding-right: 0px;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 30px;
+          margin-left: 60px;
+          gap: 10px;
+        }
+        .buttons{
+            margin-left: 10px;
+        }
+
+        .projects1{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .project img{
+            height: 20vh;
+            width: 30vw;
+            margin-left: 10px;
+        }
+        .project{
+            h3{
+                font-size: 18px;
+                font-weight: bolder;
+                background-color: black;
+                color: aliceblue;
+                
+            }
+            padding: 30px;
+        }
+        
+           
+       
+       
+        
+        
+        .footer1{
+            background-color: black;
+        
+            color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px; 
+        
+         
+          padding: 10px;
+          h5{
+            margin-left: 20%;
+          }
+           
+        }
+        .footer{
+            background-color: white;
+        }
+        .b1{
+            margin-bottom: 100px;
+            width: 100px;
+            font-size: larger;
+        }
+    }
